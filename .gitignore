@@ -1,0 +1,30 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.acn
+*.acr
+*.alg
+*.glg
+*.ist
+*.xdy
+*.nav
+*.snm
+*.vrb
+*.dvi
+
+# Compiled PDF (uncomment to also ignore the PDF)
+# resume.pdf

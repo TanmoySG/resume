@@ -1,0 +1,241 @@
+%-------------------------
+% Resume for Tanmoy Sen Gupta
+% Based on Jake's Resume template
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Tanmoy Sen Gupta} \\ \vspace{3pt}
+    \small Lead Software Engineer at Optum - a UnitedHealth Group company \\ \vspace{1pt}
+    \small Guwahati, Assam, India \\ \vspace{2pt}
+    \small
+    \href{https://linkedin.com/in/tanmoysg}{\underline{linkedin.com/in/tanmoysg}} $|$
+    \href{https://github.com/TanmoySG}{\underline{github.com/TanmoySG}} $|$
+    \href{https://tanmoysg.com}{\underline{tanmoysg.com}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{
+  Lead Software Engineer at Optum (UnitedHealth Group), focused on enterprise data infrastructure at scale. Works across the full stack to architect, design, and develop UHG's Enterprise Data Catalog and Access Provisioning platform, delivering reliable, high-impact data solutions for one of the largest healthcare organizations in the world.
+}
+\vspace{2pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Optum}{}
+      {July 2021 -- Present}{Hyderabad}
+      \resumeItemListStart
+        \resumeItem{Architecting and developing UHG's Enterprise Data Catalog and Access Provisioning platform as part of enterprise data infrastructure initiatives.}
+        \resumeItem{\textbf{Role Progression:}}
+        \begin{itemize}
+          \item Lead Software Engineer (Mar 2026 -- Present)
+          \item Senior Software Engineer (Mar 2024 -- Mar 2026)
+          \item Software Engineer (Jul 2021 -- Mar 2024)
+        \end{itemize}
+      \resumeItemListEnd
+    \resumeSubheading
+      {AstraZeneca}{}
+      {June 2021 -- July 2021}{Chennai}
+      \resumeItemListStart
+        \resumeItem{Trainee}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM Institute of Science and Technology}{India}
+      {Bachelor of Technology in Computer Science and Engineering}{2017 -- 2021}
+      \vspace{0.5pt}
+      \resumeItemListStart
+        \resumeItem{Focused on theoretical computer science and cryptography, with a final year project building hyENC3 — an advanced multi-layer hybrid cryptography system for securing sensitive data. CGPA: 7.89.}
+        \resumeItem{Organized and designed branding collateral for large-scale college Fests and Model United Nations (MUN) events, contributing to end-to-end event planning and coordination.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Golang, Python, JavaScript, TypeScript, Java, Shell/Bash} \\
+     \textbf{Frameworks \& Libraries}{: Flask, React, Node.js} \\
+     \textbf{Databases \& Storage}{: MongoDB, JSON-based data stores, RESTful API design} \\
+     \textbf{DevOps \& Cloud}{: Docker, Kubernetes (AKS, GKE), GitHub Actions, Kustomize} \\
+     \textbf{Tools \& Platforms}{: Git, Homebrew, Linux, Makefile, Goreleaser} \\
+     \textbf{Concepts}{: Distributed Systems, Cryptography, Data Security, Open-Source Development, CLI Tools} \\
+     \textbf{Top Skills}{: Software Design, Golang, GitHub Actions}
+    }}
+ \end{itemize}
+
+
+%-----------OPEN-SOURCE PROJECTS-----------
+\section{Open-Source Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{wunderDB} $|$ \emph{Go, Docker, Kubernetes} $|$ \href{https://github.com/TanmoySG/wunderDB}{\underline{github.com/TanmoySG/wunderDB}}}{2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{Designed and built a JSON-based in-memory data store inspired by MongoDB with a RESTful API.}
+            \resumeItem{Developed \texttt{wdbctl}, a Homebrew-installable CLI tool for managing wunderDB instances.}
+            \resumeItem{Implemented Docker support and published versioned container images for seamless deployment.}
+            \resumeItem{Maintained Go client library (\texttt{wdb-go}) and interactive dashboard (\texttt{wunderDash}) for the platform.}
+          \resumeItemListEnd
+          \vspace{1pt}
+
+      \resumeProjectHeading
+          {\textbf{go-steps} $|$ \emph{Go} $|$ \href{https://github.com/TanmoySG/go-steps}{\underline{github.com/TanmoySG/go-steps}}}{2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Created a Go library enabling developers to define, execute, and manage functions as sequential step-chains.}
+            \resumeItem{Implemented conditional branching, configurable retry logic with error pattern matching, and sleep intervals.}
+            \resumeItem{Built built-in rollback functionality with \texttt{RollbackFn} for automatic cleanup on step failure.}
+            \resumeItem{Integrated zerolog-based structured logging with per-step progress tracking via \texttt{GoStepsCtx}.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+    Find more projects on my \underline{\href{https://github.com/TanmoySG}{Github}}.
+
+
+
+%-----------CERTIFICATIONS \& INTERESTS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     GitHub Foundations, issued by GitHub \\
+     Microsoft Certified: Azure Fundamentals, issued by Microsoft \\
+     AI Dojo: Introduction to building AI Systems, issued by Optum \\
+    }}
+ \end{itemize}
+
+\section{Publications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Advanced Data Security using multiple cryptographic algorithms over multiple layers and secured key sharing} \\
+     \textit{Jan 2021 -- Apr 2021} \\
+     Security of data is one of the most important aspects of digital presence. This work proposes a multi-layered encryption protocol using AES, RSA, and DES in a cascading manner, with secured key sharing after authentication to address weaknesses in standalone encryption systems. \\
+     \textbf{Tech:} Python, Cryptography \\
+    }
+    \item{\textbf{
+     \href{https://github.com/TanmoySG/hyENC3}{\underline{Show project}} $|$ \href{https://www.irjet.net/archives/V8/i8/IRJET-V8I8428.pdf}{\underline{Show Paper}} \\
+    }}
+    }
+  \end{itemize}
+
+%-----------INTERESTS \& COMMUNITY-----------
+\section{Interests \& Community}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Open-Source}{: Actively maintains multiple open-source Go and Python libraries used by the developer community.} \\
+     \textbf{Technical Writing}{: Publishes engineering articles and guides at \href{https://blog.tanmoysg.com}{\underline{blog.tanmoysg.com}}.} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
