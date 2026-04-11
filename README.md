@@ -14,8 +14,3 @@ LaTeX source for Tanmoy Sen Gupta's resume.
 ```bash
 pdflatex resume.tex
 ```
-
-## Notes
-
-> The **university name and location** in the Education section are marked as placeholders (`[University Name]`, `[City, Country]`).
-> Please update `resume.tex` with your actual institution details before using.
